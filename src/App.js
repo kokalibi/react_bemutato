@@ -9,6 +9,12 @@ import Tipp from "./Components/TippReact.jsx"
 import Kapcs from "./Components/KapcsolatReact.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";
 
+function Home(){
+  return (
+    <div>Nyitolap</div>
+  )
+}
+
 function App() {
   return (
       <div>
