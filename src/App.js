@@ -40,6 +40,11 @@ function App() {
             <Route path="/kapcs" element={<Kapcs/>}/>
           </Routes>
         </Router>
+
+        <div>
+            Ronda egy festői város Spanyolország déli részén, Andalúziában. Híres lenyűgöző szurdokáról, az El Tajo-ról, amelyet a Guadalevín folyó vájt ki, és amelyet a monumentális Puente Nuevo híd köt össze. Ronda gazdag történelmi örökséggel rendelkezik, itt található Spanyolország egyik legrégebbi bikaviadal-arénája is. A város óvárosa arab és középkori hatásokkal büszkélkedik, míg a kilátók lélegzetelállító panorámát nyújtanak. Hemingway és Orson Welles is megihletődtek Ronda szépségétől, amely a mai napig népszerű turisztikai célpont.
+        </div>
+        <img src="" alt="" />
     </div>
   );
 }
