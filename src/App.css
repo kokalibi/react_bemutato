@@ -43,7 +43,7 @@
 nav{
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   background-color: #61dafb;
   padding: 5px;
 }
