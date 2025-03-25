@@ -7,6 +7,7 @@ import Event from "./Components/EventReact.jsx"
 import Gasztr from "./Components/GasztronomiaReact.jsx"
 import Tipp from "./Components/TippReact.jsx"
 import Kapcs from "./Components/KapcsolatReact.jsx"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
