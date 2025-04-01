@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GalleryList } from "../data/galeria";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
@@ -23,24 +24,31 @@ export default function Gallery() {
     const galleryItem = GalleryList[index];
 
     return (
-        
-        <>
-            <h2>Galeria - {index + 1}/{GalleryList.length}. Elem</h2>
-            <button onClick={handlePrevClick}>⬅️</button>
-            <button onClick={handleNextClick}>➡️</button>
+        <div className="container my-5">
+            <h2 className="text-center mb-4">Galéria - {index + 1}/{GalleryList.length} Elem</h2>
+            <div className="d-flex justify-content-center mb-3">
+                <button 
+                    className="btn btn-outline-primary mx-2" 
+                    onClick={handlePrevClick}>
+                    ⬅️ Előző
+                </button>
+                <button 
+                    className="btn btn-outline-primary mx-2" 
+                    onClick={handleNextClick}>
+                    Következő ➡️
+                </button>
+            </div>
 
-            <h2>
-                {galleryItem.name} by {galleryItem.artist}
-            </h2>
-            <div>
-                {galleryItem.description}
+            <div className="text-center">
+                <h4>{galleryItem.name} by {galleryItem.artist}</h4>
+                <p>{galleryItem.description}</p>
                 <img 
                     src={galleryItem.url} 
                     alt={galleryItem.alt} 
-                    style={{ width: "500px", height: "500px" }}
+                    className="img-fluid rounded shadow"
+                    style={{ maxWidth: "100%", maxHeight: "500px" }} 
                 />
             </div>
-        </>
+        </div>
     );
-
 }
