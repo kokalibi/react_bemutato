@@ -1,4 +1,5 @@
 export default function Gasztr(){
+    return(
     <>
     <p>
     <h4>Ronda gasztronómiája: Andalúz ízek a sziklák között</h4>
@@ -18,5 +19,5 @@ export default function Gasztr(){
     Ronda gasztronómiája a tradíció és a természet harmóniáját tükrözi, így minden ínyenc számára felejthetetlen élményt nyújt.
     </p>
     </>
-
+    )
 }
