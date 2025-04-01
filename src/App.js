@@ -30,7 +30,7 @@ function App() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-3">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">Ronda Utazás</Link>
+            <Link className="navbar-brand" to="/">Kezdőlap</Link>
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
