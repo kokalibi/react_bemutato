@@ -1,12 +1,12 @@
 import{BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
 import './App.css';
-import Latv from "./Components/LatvanyossagReact.jsx"
-import Terkep from "./Components/TerkepReact.jsx"
-import Gallery from "./Components/GaleriaReact.jsx"
-import Event from "./Components/EventReact.jsx"
-import Gasztr from "./Components/GasztronomiaReact.jsx"
-import Tipp from "./Components/TippReact.jsx"
-import Kapcs from "./Components/KapcsolatReact.jsx"
+import Latv from "./components/LatvanyossagReact.jsx"
+import Terkep from "./components/TerkepReact.jsx"
+import Gallery from "./components/GaleriaReact.jsx"
+import Event from "./components/EventReact.jsx"
+import Gasztr from "./components/GasztronomiaReact.jsx"
+import Tipp from "./components/TippReact.jsx"
+import Kapcs from "./components/KapcsolatReact.jsx"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home(){
