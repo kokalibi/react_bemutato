@@ -1,4 +1,5 @@
 export default function Event(){
+    return(
     <>
     <h3>Plaza de Toros</h3>
     <p>A Ronda Plaza de Toros az egyik legnagyobb és legrégebbi bikaviadal aréna Spanyolországban. A 18. században épült, és ma is használják bikaviadalokhoz. A bikaviadal-rajongóknak kötelező program, de a helyiek is gyakran használják a teret koncertekre és más eseményekre. A Plaza de Toros múzeumot is rejt magában, ahol a bikaviadal történetét ismerhetik meg a látogatók.</p>
@@ -17,5 +18,5 @@ export default function Event(){
 
     <a href="http://localhost:3000/">Vissza a főoldalra</a>
     </>
-
+    )
 }
