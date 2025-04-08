@@ -4,15 +4,12 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
 export default function Terkep() {
-    // Ronda koordinátái (Spanyolország)
     const rondaCoords = [36.7428, -5.1628];
-
-    // Egyéni ikon a markerhez
     const customIcon = new L.Icon({
         iconUrl: '/pngwing.com.png',
-        iconSize: [40, 40], // Az ikon méretének beállítása
-        iconAnchor: [20, 40], // Az ikon alapjának a pozicionálása
-        popupAnchor: [0, -40], // A felugró ablak pozicionálása
+        iconSize: [40, 40],
+        iconAnchor: [20, 40],
+        popupAnchor: [0, -40],
     });
 
     return (
