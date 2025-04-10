@@ -32,30 +32,40 @@ export default function Terkep() {
                 <Marker position={puentenevoCoords} icon={customIcon}>
                     <Popup>
                     Puente Nuevo
+                    <p></p>
+                    <img src="https://alisononfoot.com/wp-content/uploads/2024/07/Things-to-do-in-Ronda2-2048x1470.jpg" alt="" style={{width: "80px"}} />
                     </Popup>
                 </Marker>
 
                 <Marker position={plazadetorosCoords} icon={customIcon}>
                     <Popup>
                      Plaza de Toros
+                     <p></p>
+                     <img src="99.jpg" alt="" style={{width: "80px"}}/>
                     </Popup>
                 </Marker>
 
                 <Marker position={AlamedadelTajoCoords} icon={customIcon}>
                     <Popup>
                     Alameda del Tajo
+                    <p></p>
+                    <img src="https://www.andalucia.com/sites/default/files/MVC222850078-Ronda-%20Andalucia-Spain-copyright-m-chaplow.jpg" alt="" style={{width: "80px"}}/>
                     </Popup>
                 </Marker>
 
                 <Marker position={CasadelReyMoroCoords} icon={customIcon}>
                     <Popup>
                     Casadel Rey Moro
+                    <p></p>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/a9/6e/42/vue-de-la-casa-des-jardins.jpg?w=1200&h=-1&s=1" alt="" style={{width: "80px"}}/>
                     </Popup>
                 </Marker>
 
                 <Marker position={BanosArabesCoords} icon={customIcon}>
                     <Popup>
                     Baños Arabes
+                    <p></p>
+                    <img src="https://www.emocionday.com/media/catalog/product/cache/7/image/600x600/9df78eab33525d08d6e5fb8d27136e95/b/a/xbanos-arabes-en-granada-circuito-termal-bienestar-emocionday_6_1.jpg.pagespeed.ic.TGhT1PsJ9d.jpg" alt="" style={{width: "80px"}}/>
                     </Popup>
                 </Marker>
             </MapContainer>
