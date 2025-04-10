@@ -13,28 +13,37 @@ export default function Gasztr() {
           sűrűbb, tartalmasabb változata. A régióban népszerűek a <strong>pucheros</strong> és <strong>potajes</strong> – laktató egytálételek,
           amelyek csicseriborsóval, sertéshússal és különféle zöldségekkel készülnek.
         </p>
+        <img src="gazpacho-672x372.jpg" alt="" style={{width:"300px"}}/>
         
         <p className="text-gray-700 mb-4">
           A helyi húsételek között kiemelkedik a <strong>rabo de toro</strong>, vagyis a bikafarok pörkölt, amelyet lassú tűzön,
           vörösborral és fűszerekkel párolnak omlósra. Ronda környéke híres a vadételeiről is:
           <strong>vaddisznóból</strong> és <strong>szarvasból</strong> készült fogásokat is találhatunk az éttermek étlapján.
+          
         </p>
+        <img src="rabo-de-toro_square-480x480.jpg" alt="" style={{width:"300px"}}/>
         
         <p className="text-gray-700 mb-4">
           Nem hagyhatjuk ki a sajtokat és sonkákat sem. A <strong>payoyo sajt</strong>, amelyet kecsketejből készítenek
           a közeli Grazalema hegységben, igazi helyi különlegesség. A <strong>jamón ibérico</strong>, azaz ibériai sonka
           szintén gyakori előétel, amelyet olívaolajjal és friss kenyérrel kínálnak.
+          
         </p>
+        <img src="payoyo-550x366.jpg" alt="" style={{width:"300px"}}/>
         
         <p className="text-gray-700 mb-4">
           Az édesszájúaknak a <strong>yemas del Tajo</strong> nevű helyi süteményt érdemes megkóstolniuk, amely tojássárgájából
           és cukorból készül, valamint a <strong>tortas de almendra</strong>, vagyis mandulás sütemények is nagy népszerűségnek örvendenek.
+          
         </p>
+        <img src="image_238933_jpeg_470x324_q85" alt="" style={{width:"300px"}}/>
         
         <p className="text-gray-700 mb-4">
           A helyi borok sem maradhatnak ki a felsorolásból: Ronda környéke kiváló vörösborokat termel, különösen a
           <strong>Tempranillo</strong> és <strong>Syrah</strong> szőlőfajtákból készült borok ajánlottak egy gazdag andalúz vacsora mellé.
+          
         </p>
+        <img src="A_Gere_Tempranillo_1500_1875px.jpg" alt="" style={{width:"300px"}}/>
         
         <p className="text-gray-700 font-semibold mt-6">
           Ronda gasztronómiája a tradíció és a természet harmóniáját tükrözi, így minden ínyenc számára felejthetetlen élményt nyújt.
